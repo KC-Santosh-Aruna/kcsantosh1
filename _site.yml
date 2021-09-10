@@ -1,0 +1,52 @@
+name: "SKC"
+title: "Sulakshan Kirti Campus"
+favicon: "skclogo.png"
+description: |
+  Sulakshan Kirti Website
+output_dir: "_site"
+navbar:
+  logo:
+      image: skclogo1.png
+      href: "logo.html"
+  right:
+    - text: "About Us"
+      menu:
+        - text: "Guruma Message"
+        - text: "Objective"
+        - text: "Faculty Members"
+        - text: "Gallary"
+          href: Gallary.html
+    - text: "Study"
+      menu:
+        - text: "Course"
+          href: Course.html
+        - text: "Admission Procedure"
+    - text: "Research"
+      href: Research.html
+    - text: "News"
+    - text: "Founders"
+      menu:
+        - text: "Institutional Founder Patron"
+          href: InstitutionalFounderPatron.html
+        - text: "Institutional Founder"
+          href: InstitutionalFounder.html
+        - text: "Founding Patron"
+          href: FoundingPatron.html
+        - text: "Founders"
+          href: Founders.html
+    - text: "Contact"
+      href: Contact.html
+    - text: "नेपाली"
+      href: Nepali.html
+    - icon: fa fa-facebook
+      href: https://www.facebook.com/
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/
+    - icon: fa fa-twitter
+      href: https://twitter.com/
+      
+
+
+output: distill::distill_article
+theme: "SKC_theme.css"
+
